@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <link href="styles.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="main.js" defer></script>
+        <title>Notes App</title>
+    </head>
+    <body>
+        <section>
+            <div class="NoteThumbnail">
+                <button id="NewNoteButton" 
+                        class="NoteButton">
+                       Add Note
+                </button>
+                <button id="DeleteNoteButton" 
+                class="NoteButton">
+               Delete Note
+        </button>
+            </div>
+            <div id="wrapper"></div>
+        </section>
+        <main>
+            <input type="text" placeholder="Add A Note..." disabled>
+            <textarea placeholder='Click add note on the sidebar...' maxlength='1000' minlength='100' disabled></textarea>
+        </main>
+    </body>
+</html>
